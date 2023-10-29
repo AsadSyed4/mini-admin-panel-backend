@@ -28,8 +28,9 @@ Before you begin, make sure you have the following software installed:
 4. Create a `.env` file and configure your database settings.
 5. Generate a new application key: `php artisan key:generate`.
 6. Run database migrations: `php artisan migrate`.
-6. Run database seeders for dummy: `php artisan db:seed`.
-7. Start the Laravel development server: `php artisan serve`.
+7. Run database seeders for dummy: `php artisan db:seed`.
+8. For email notification setup: replace you credentials in `.env`.
+9. Start the Laravel development server: `php artisan serve`.
 
 The backend should now be up and running on `http://localhost:8000`.
 
